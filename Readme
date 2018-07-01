@@ -1,0 +1,11 @@
+运行环境: macOS 10.13.3 bash
+运行需安装lex和yacc
+以linux为例：sudo apt-get install flex bison
+运行前需要在Reacord.h以及indexManager.h宏定义中的路径"/Users/remain/Downloads/new/"改成代码所在路径
+运行方式：
+make
+./minisql
+
+
+现支持create table、drop table、select、delete、insert、以及创建索引
+大文件情况下性能良好
